@@ -60,7 +60,8 @@ Stack s1=new Stack();
 System.out.println("This is a Stack Implementation using Array");
 System.out.println("Methods available");
 System.out.println("1.push\n2.pop\n3.peek\n4.peek\n5.isEmpty");
-System.out.println("State of Stack is "+s1.isEmpty());
+if(s1.isEmpty()){
+System.out.println("State of Stack is Empty");}
 for(int i=0;i<101;i++){
 	s1.push(i);
 	System.out.println("Element Pushed: "+i);
