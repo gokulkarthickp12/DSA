@@ -117,11 +117,19 @@ System.out.print("The Reverse List is:");
 s1.display();
 System.out.println("A node is deleted at position 1");
 s1.delete(1);
-for(int i=0;i<=5;i++){
+for(int i=0;i<5;i++){
 	System.out.println("Node is deleted at Last");
 	s1.deleteAtLast()
 }
-
+for(int i=0;i<5;i++){
+	System.out.println("Node is deleted at Begining");
+	s1.deleteAtBegining();
+}
+	System.out.print("The List is :");
+s1.display();
+System.out.println();s1.reverse();
+System.out.print("The Reverse List is:");
+s1.display();
 
 }
 }
