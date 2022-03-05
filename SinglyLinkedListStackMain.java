@@ -45,7 +45,7 @@ System.out.println();
 class SinglyLinkedListStackMain{
 public static void main(String[] args){
 SinglyLinkedListStack s1= new SinglyLinkedListStack();
-System.out.println("This is a Stack Implementation using Array");
+System.out.println("This is a Stack Implementation using LinkedList");
 System.out.println("Methods available");
 System.out.println("1.push\n2.pop\n3.display");
 for(int i=0;i<10;i++){
